@@ -110,6 +110,9 @@ Unpaid amount:
 
 ![image](https://user-images.githubusercontent.com/34111848/166410584-2ecddce7-d63b-4bca-825a-1d8de1170a2c.png)
 
+![image](https://user-images.githubusercontent.com/34111848/166411766-410e2a42-e34f-4d58-8ddb-e10a3386af3e.png)
+
+
 Some rather pretty graphs are possible with the [mini-graph-card](https://github.com/kalkih/mini-graph-card):
 
 ## Discussion
