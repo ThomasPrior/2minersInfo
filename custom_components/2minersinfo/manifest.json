@@ -1,0 +1,11 @@
+{
+  "domain": "2minersinfo",
+  "name": "2minersInfo",
+  "version": "0.0.1",
+  "documentation": "https://github.com/ThomasPrior/2minersInfo",
+  "dependencies": [],
+  "codeowners": ["@thomasprior"],
+  "requirements": [],
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/ThomasPrior/2minersInfo/issues"
+}
