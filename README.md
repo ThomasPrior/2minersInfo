@@ -10,7 +10,7 @@ If this has been of use, please consider funding my caffeine habit:
 
 # Functionality
 
-* Create sensor items for cyrptocurrency worker machines using 2miners, either pooled or solo for supported coins.
+* Create sensor items for cryptocurrency miners/worker machines using 2miners, either pooled or solo for supported coins.
 
 Supported coins are as follows:
 
