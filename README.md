@@ -54,7 +54,7 @@ Copy the files in the /custom_components/2minersInfo/ folder to: [homeassistant]
 To use 2minersInfo, please add the following items to your HomeAssistant ```configuration.yaml```
 ````
 sensor:
-  - platform: 2minersInfo
+  - platform: 2minersinfo
     miner_address: (required) the address of your 2minersInfo miner
     currency_name: (required) the currency you would like your unpaid balance to be converted to 
     name_override: (optional) name to identify your wallet instead of your miner address.
@@ -68,7 +68,7 @@ Examples:
 
 ```
 sensor:
-  - platform: 2minersInfo
+  - platform: 2minersinfo
     miner_address: "0x1234567890123456789012345678901234567890"
     currency_name: USD
     token: eth
@@ -77,7 +77,7 @@ sensor:
 
 ```
 sensor:
-  - platform: 2minersInfo
+  - platform: 2minersinfo
     miner_address: "0x1234567890123456789012345678901234567890"
     currency_name: USD
     token: etc
@@ -86,7 +86,7 @@ sensor:
 
 ```
 sensor:
-  - platform: 2minersInfo
+  - platform: 2minersinfo
     miner_address: "1234567890123456789012345678901234567890"
     currency_name: CAD
     name_override: "wallet name"
