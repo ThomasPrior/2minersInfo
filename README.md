@@ -21,6 +21,7 @@ Supported coins are as follows:
 - Ethereum Classic (etc)
 - Ethereum (eth)
 - Metaverse ETP (etp)
+- Ergo (erg)
 - Expanse (exp)
 - Ravencoin (rvn)
 - Monero (xmr)
