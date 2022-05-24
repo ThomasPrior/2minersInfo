@@ -347,7 +347,7 @@ class InfoSensor(Entity):
                 self._unpaid = r['stats']['balance']
                 calculate_hashrate_mh_sec = self._current_hashrate / 1000000
                 self._current_hashrate_mh_sec = round(calculate_hashrate_mh_sec, 2)
-                if len(r['payments']):
+                if (r['paymentsTotal']) != 0:
                     self._amount = r['payments'][0]['amount']
                     self._txhash = r['payments'][0]['tx']
                     self._paid_on = datetime.fromtimestamp(int(r['payments'][0]['timestamp'])).strftime('%d-%m-%Y %H:%M')
